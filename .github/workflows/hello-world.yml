@@ -1,7 +1,7 @@
 name: hello-world
 on: push
 jobs:
-  buildname:
+	build:
     runs-on: ubuntu-latest
     steps:
         uses: actions/checkout@3
