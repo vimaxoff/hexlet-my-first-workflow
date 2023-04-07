@@ -1,8 +1,8 @@
-name: hello-world
-on: push
-jobs: 
-build: 
-	runs-on: ubuntu-latest
-	steps: 
-		 uses: actions/checkout@3
-		- run: make say-hello
+name: Hello-world
+on: [push]
+jobs:
+  Explore:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make say-hello
+        uses: actions/checkout@v3
