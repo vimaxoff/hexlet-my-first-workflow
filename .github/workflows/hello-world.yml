@@ -4,5 +4,6 @@ jobs:
   Explore:
     runs-on: ubuntu-latest
     steps:
-      - run: make say-hello
+      - name: Check out repository code
         uses: actions/checkout@v3
+      - run: make say-hello
